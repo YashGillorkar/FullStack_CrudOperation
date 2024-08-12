@@ -1,0 +1,7 @@
+package com.yash.crud.serviceImpl;
+
+import com.yash.crud.service.CustomerServiceI;
+
+public class CustomerServiceImpl implements CustomerServiceI{
+
+}

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+E:\Yash_JavaFullStackDeveloper\FullStack_CrudOperation\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2203696827.index
+4189395568.index
+721034992.index
+1852262969.index
+3021743047.index
+2926871100.index

@@ -1,0 +1,5 @@
+package com.yash.crud.model;
+
+public class Customer {
+
+}

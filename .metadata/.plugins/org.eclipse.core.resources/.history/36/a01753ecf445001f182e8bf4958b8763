@@ -1,0 +1,9 @@
+package com.yash.crud.service;
+
+import com.yash.crud.model.Customer;
+
+public interface CustomerServiceI {
+
+	Customer saveCustomer(Customer customer);
+
+}

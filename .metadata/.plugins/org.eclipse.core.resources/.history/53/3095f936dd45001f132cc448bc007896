@@ -1,0 +1,5 @@
+package com.yash.crud.service;
+
+public interface CustomerServiceI {
+
+}

@@ -1,0 +1,10 @@
+package com.yash.crud.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.yash.crud.service.CustomerServiceI;
+
+@Service
+public class CustomerServiceImpl implements CustomerServiceI{
+
+}

@@ -1,0 +1,23 @@
+package com.yash.crud.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.yash.crud.model.Customer;
+import com.yash.crud.service.CustomerServiceI;
+
+@RestController
+public class CustomerController {
+	
+	@Autowired CustomerServiceI csi;
+	
+	public ResponseEntity<Customer> postData(@RequestBody Customer customer){
+		Customer obj = csi.saveCustomer(customer);
+		return new ResponseEntity<Customer>(obj , HttpStatus.CREATED);
+	
+	}
+
+}

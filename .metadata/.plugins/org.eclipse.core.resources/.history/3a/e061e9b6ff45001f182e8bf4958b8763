@@ -1,0 +1,27 @@
+package com.yash.crud.serviceImpl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.yash.crud.model.Customer;
+import com.yash.crud.repository.CustomerRepository;
+import com.yash.crud.service.CustomerServiceI;
+
+@Service
+public class CustomerServiceImpl implements CustomerServiceI{
+
+	@Autowired CustomerRepository cr;
+	
+	@Override
+	public Customer saveCustomer(Customer customer) {
+		return cr.save(customer); 
+	}
+
+	@Override
+	public List<Customer> getAllDetails() {
+		return cr.findAll();
+	}
+
+}
